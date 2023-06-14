@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../countdown/sunrise.jpg);
+    background-position: center;
+    background-size: cover;
+  
+}
+.overlay{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.content{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.head{
+    color: white;
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding:  8px;
+    color: white;
+  
+}
+.dommy{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding:  24px;
+}
+.box{
+    height: 80px;
+    width: 60%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+   
+  
+}
+.box1{
+    text-align: center;
+    color: white;
+    
+}
+.box1 input{
+   border-radius: 8px;
+   height: 50px;
+   width: 80px;
+   border: transparent;
+  background-color: green;
+   color: white;
+   /* padding: 0 24px; */
+   text-align: center;
+   font-size: 40px;
+   font-weight: bold;
+
+}
